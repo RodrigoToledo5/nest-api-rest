@@ -32,14 +32,14 @@ import { ExctractorModule } from './exctractor/exctractor.module';
       isGlobal: true,
     }),
     TypeOrmModule.forRoot({
-      type: 'postgres',
-      host: 'tuffi.db.elephantsql.com',
-      port: 5432,
-      username: 'ttckomiz',
-      password: '1VCIME5LifN0pqiCDSck0dUo30Mivnr7',
-      database: 'ttckomiz',
+      type: process.env.DB_TYPE as 'mysql' | 'postgres' | 'sqlite' | 'mariadb' | 'mongodb' | 'oracle', // Especifica los tipos de bases de datos posibles
+      host: process.env.DB_HOST,
+      port: parseInt(process.env.DB_PORT, 10) || 5432, // Convierte el puerto a número
+      username: process.env.DB_USERNAME,
+      password: process.env.DB_PASSWORD,
+      database: process.env.DB_NAME,
       entities: [Restaurant, Image, User],
-      synchronize: true,
+      synchronize: process.env.DB_SYNCHRONIZE === 'true',
     }),
     RestaurantModule,
     CommandModule,
