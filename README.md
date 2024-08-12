@@ -1,24 +1,29 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# **Restaurant Management API**
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+The **Restaurant Management API** is a robust solution designed to streamline the administration and operation of restaurants in an efficient and centralized manner. This API enables developers to integrate and manage various essential functionalities required for running a restaurant, providing a user-friendly and secure interface to interact with business data and processes.
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
+## **Key Features:**
+
+- **Menu Management:** Allows the creation, updating, and deletion of menu items, including dishes, beverages, and their respective categories. Users can manage descriptions, prices, availability, and customizable options for each item.
+
+- **Order Management:** Offers a comprehensive system to manage orders in real-time, from order taking to tracking and delivery. Includes options for in-restaurant, takeout, and delivery orders.
+
+- **Inventory Control:** Facilitates the tracking and management of ingredient and supply inventory, with automatic alerts for restocking and supplier management.
+
+- **Reservation Management:** Integrates a reservation system that allows customers to make and manage their reservations online, while restaurant administrators can efficiently organize tables and schedules.
+
+- **Authentication and Security:** Implements advanced authentication and authorization mechanisms, ensuring that only authorized users can access and modify restaurant information. Compatible with OAuth2 and JWT.
+
+- **Reporting and Analytics:** Provides tools to generate detailed reports on sales, orders, staff performance, and customer satisfaction. Data is presented visually and can be exported in various formats.
+
+- **Payment Integration:** Compatible with multiple payment gateways, allowing seamless integration of online and on-site payment solutions.
+
+- **Multichannel Support:** The API is designed to be used across various platforms, including mobile applications, point-of-sale (POS) systems, and websites, facilitating omnichannel integration.
+
+---
+
+This API is ideal for developers looking to build comprehensive applications for restaurant management, offering a scalable and customizable solution that adapts to the specific needs of any business in the restaurant industry.
+
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
